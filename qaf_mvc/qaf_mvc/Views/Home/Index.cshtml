@@ -1,0 +1,199 @@
+﻿@model SiteData
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div>
+    <div class="hero-section-bg">
+        <div class="container hero-section">
+
+            <div class="row">
+
+                <div class="col">
+
+                    <h1 class="pt-3 qaf-text-white display-1 font-weight-bold">Welcome to QA Finance</h1>
+
+                    <h3 class="hero-sub pb-4 qaf-text-white">Handling your mortgage and giving you peace of mind.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5 pt-5 about-section">
+
+        <div class="row s-content-margin">
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h2 class="section-title"><strong>About Us</strong></h2><hr>
+
+                <h3 class="qaf-text-light py-4"><small>Dedinated professionals providing quality assured services.</small></h3>
+
+                <div class="qaf-text-dark cms-plugin cms-plugin-1145">
+                    <p>QA Finance Specialises in mortgage broking.</p>
+
+                    <p>We are dedicated to providing easy and quality-assured mortgage applying experience.</p>
+
+                    <p>With extensive knowledge in mortgage lending, we believe our professional advices can provide customers a peaceful minde for their mortgage.</p>
+
+                    <a class="btn btn-outline-primary"asp-controller="AboutUs" asp-action="Index" role="button"><strong>Discover More</strong></a>
+                </div>
+            </div>
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <div id="about-us-image">
+
+                    <img src="/images/aboutussideimage.png" alt="" class="img-fluid">
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="bg-grey my-2">
+        <div class="container services-section py-5 ">
+
+            <div class="row s-content-margin">
+
+                <div class="col">
+
+                    <h2 class="section-title"><strong>Services</strong></h2><hr>
+
+                    <h3 class="qaf-text-light py-4">How we can help you</h3>
+
+                </div>
+
+            </div>
+
+
+            <div class="row s-content-margin">
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+
+                    <a href="/en/services"><h4 class="qaf-text-light pt-3"><strong>Residential - Home &amp; Investment</strong></h4></a>
+
+                    <p class="qaf-text-dark pb-5">New Purchase, Refinance, Equity Release, Self Employed, Low Doc</p>
+
+                </div>
+
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+
+                    <a href="/en/services"><h4 class="qaf-text-light pt-3"><strong>Commercial</strong></h4></a>
+
+                    <p class="qaf-text-dark pb-5">Commercial Property, Warehouse, Business Loan</p>
+
+                </div>
+
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+
+                    <a href="/en/services"><h4 class="qaf-text-light pt-3"><strong>Construction</strong></h4></a>
+
+                    <p class="qaf-text-dark pb-5">House &amp; Land</p>
+
+                </div>
+
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+
+                    <a href="/en/services"><h4 class="qaf-text-light pt-3"><strong>Overseas &amp; Expat</strong></h4></a>
+
+                    <p class="qaf-text-dark pb-3">Australians earning foreign income, Non-resident purchasing property in Australia</p>
+
+                </div>
+
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+
+                    <a href="/en/services"><h4 class="qaf-text-light pt-3"><strong>Car Loan</strong></h4></a>
+
+                    <p class="qaf-text-dark pb-3">Dealership, Second hand</p>
+
+                </div>
+
+
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+
+                    <a href="/en/services"><h4 class="qaf-text-light pt-3"><strong>Personal Loan</strong></h4></a>
+
+                    <p class="qaf-text-dark pb-3">Advice to weather the storm</p>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+@await Html.PartialAsync("_MeetOurTeam", Model.Employees)
+@*<div class="container my-5 ">
+
+        <div class="row s-content-margin">
+
+            <div class="col">
+
+                <h2 class="section-title"><strong>Meet Our Team</strong></h2><hr>
+
+            </div>
+
+        </div>
+
+
+        <div class="row align-items-center justify-content-center">
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <div class="mx-5 my-5">
+
+                    <div class="card">
+
+
+                        <a href="/en/our-team/zhuliang/">
+                           <img src="/images/zhuliang.jpg" alt="" class="img-fluid">
+                        </a>
+
+
+                        <div class="card-body">
+
+                            <h6 class="qaf-text-dark"><a href="/en/our-team/zhuliang">Zhuliang Huang</a></h6>
+
+                            <h6><small>Managing Director</small></h6>
+
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <div class="mx-5 my-5 invisible">
+
+                    <div class="card">
+
+                        <a href="/en/our-team/monique/">
+
+
+                            <img src="/images/monique.jpg"  alt="" class="img-fluid">
+
+                        </a>
+
+                        <div class="card-body">
+
+                            <a href="/en/our-team/monique"><h6>Monique Jiang</h6></a>
+
+                            <h6><small>CoFounder / Senior Mortgage Consultant</small></h6>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>*@
+

@@ -1,0 +1,310 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {*/
+  /* Margin bottom by footer height */
+  /*margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;*/ /* Vertically center the text there */
+/*}*/
+
+
+
+
+/* Customise*/
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    padding-top: 76px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.section-title {
+    display: block;
+}
+
+hr {
+    margin: 0;
+    width: 300px;
+    height: 1px;
+    color: #22272e;
+    background-color: #22272e;
+}
+
+
+ hr.page-title {
+    margin: auto !important;
+    width: 50%;
+    height: 1px;
+    color: #22272e;
+    background-color: #22272e;
+}
+
+.text-white, h1.qaf-text-white, h3.qaf-text-white {
+    color: #fefefe !important;
+}
+
+h3.qaf-text-light, h4.qaf-text-light, h5.qaf-text-light, p.qaf-text-light {
+    color: #5d899f !important;
+}
+
+.btn, .btn-outline-primary {
+    color: #fefefe !important;
+    border-color: #22272e !important;
+    background-color: #22272e !important;
+}
+    .btn-outline-primary:hover {
+        color: #22272e !important;
+        background-color: #fefefe !important;
+    }
+
+
+    p.hero-sub {
+        font-weight: 300;
+    }
+
+div.hero-section-bg {
+    background-image: url('../images/hero-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+div.hero-section.container {
+    padding-top: 250px !important;
+    padding-bottom: 350px !important;
+}
+
+div.about-section.container {
+    padding-top: 5rem !important;
+    padding-bottom: 100px !important;
+}
+
+.bg-grey {
+    background-color: #f5f5f5;
+    background-image: url('../images/QA_bg.png');
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+}
+div.services-section {
+ /*   background-image: url('../images/QA_bg.png');
+    background-size: 55%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;*/
+}
+
+h1.qaf-text-dark, h2.qaf-text-dark, h3.qaf-text-dark, h4.qaf-text-dark, h5.qaf-text-dark, h6.qaf-text-dark, p.qaf-text-dark {
+    color: #22272e !important;
+}
+
+    h6.qaf-text-dark > a {
+        color: #22272e !important;
+    }
+
+.bg-dark {
+    background-color: #343c47 !important;
+}
+
+.text-white > h6 > a {
+    color: #fefefe;
+    font-weight: 500;
+}
+
+li.nav-item {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+a.nav-link {
+    font-weight: bold;
+    color: #fefefe !important;
+}
+
+.navbar-brand {
+    width: 150px;
+    font-size: 24px;
+}
+
+    .navbar-brand img {
+        height: 4rem;
+        /* put value of image height as your need */
+        float: left;
+        margin-right: 7px;
+    }
+
+.card {
+    border: none !important;
+}
+
+.carousel-item {
+    height: 65vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+/*    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;*/
+    background-size: cover;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.card-body h6 {
+    text-align: center;
+    color: #22272e;
+}
+
+    .card-body h6 small {
+        text-align: center;
+        color: #5d899f;
+    }
+
+
+@media screen and (max-width: 992px) {
+    body {
+        padding-top: 70px;
+    }
+    li.nav-item {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.hero-section.container {
+        padding-top: 150px !important;
+        padding-bottom: 150px !important;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    div.about-section.container {
+        padding-top: 0 !important;
+        padding-bottom: 2rem !important;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 5rem !important;
+    }
+
+    h3.hero-sub {
+        font-size: 1.4rem;
+        font-weight: 300;
+    }
+
+
+    div.about-section.container {
+        padding-top: 2rem !important;
+        padding-bottom: 2rem !important;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    div#about-us-image {
+        display: none;
+    }
+
+    .bg-grey {
+        background-position: right center;
+    }
+
+    .s-content-margin {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    /*Member Page title*/
+    .member_name {
+        font-size: 3rem !important;
+    }
+}

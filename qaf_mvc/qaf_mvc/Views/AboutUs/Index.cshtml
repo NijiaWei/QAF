@@ -1,0 +1,66 @@
+﻿@model SiteData
+@{
+    ViewData["Title"] = "About Us Page";
+}
+
+<div class="container">
+
+    <div class="row align-items-center justify-content-center">
+
+
+        <div class="col">
+
+            <h1 class="mt-5 title_font" style="text-align: center;">About Us</h1>
+
+            <hr class="page-title">
+
+        </div>
+
+    </div>
+    <div class="row my-5 s-content-margin">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 px-3">
+            <h2 class="qaf-text-dark"><strong>Our Company</strong></h2>
+
+            <hr><h3 class="qaf-text-light mt-2 mb-5"><small>Building a brighter financial future &amp; good support</small></h3>
+
+            <div class="qaf-text-dark">
+                <p>QA Finance Specialises in mortgage broking. </p>
+
+                <p>We are dedicated to providing easy and quality-assured mortgage applying experience.</p>
+
+                <p>With extensive knowledge in mortgage lending, we believe our professional advices can provide customers a peaceful minde for their mortgage.</p>
+            </div>
+        </div><div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 d-none d-sm-none d-md-block px-3 py-3">
+
+            <img src="/images/logo_dark.png" alt="" class="img-fluid">
+
+        </div>
+    </div>
+
+    <div class="row s-content-margin">
+
+
+        <div class="col">
+
+            <h2 class="qaf-text-dark"><strong>Why Choose Our Company</strong></h2>
+
+            <hr>
+
+            <h3 class="qaf-text-light mt-2 mb-5"><small>We promise sustainable future for you</small></h3>
+
+            <div class="qaf-text-dark">
+                <p>QA Finance Specialises in mortgage broking.</p>
+
+                <p>We are dedicated to providing easy and quality-assured mortgage applying experience.</p>
+
+                <p>With extensive knowledge in mortgage lending, we believe our professional advices can provide customers a peaceful mind for their mortgage.</p>
+            </div>
+
+            <div class="mb-5"></div>
+
+        </div>
+
+
+    </div>
+</div>
+@await Html.PartialAsync("_MeetOurTeam", Model.Employees)

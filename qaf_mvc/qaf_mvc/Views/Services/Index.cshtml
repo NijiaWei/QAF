@@ -1,0 +1,82 @@
+﻿@model SiteData
+@{
+    ViewData["Title"] = "Services Page";
+}
+
+<div class="container">
+
+    <div class="row align-items-center justify-content-center">
+
+        <div class="col">
+
+            <h1 class="mt-5" style="text-align: center;">Services</h1>
+
+            <hr class="page-title">
+            <h3 class="qaf-text-light pt-3 pb-5" style="text-align: center;">How we can help you</h3>
+
+        </div>
+
+    </div>
+</div><div class="bg-grey">
+    <div class="container services-section py-5">
+
+        <div class="row">
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <h4 class="qaf-text-light pt-3"><strong>Residential - Home &amp; Investment</strong></h4>
+
+                <p class="qaf-text-dark pb-5">New Purchase, Refinance, Equity Release, Self Employed, Low Doc</p>
+
+            </div>
+
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <h4 class="qaf-text-light pt-3"><strong>Commercial</strong></h4>
+
+                <p class="qaf-text-dark pb-5">Commercial Property, Warehouse, Business Loan</p>
+
+            </div>
+
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <h4 class="qaf-text-light pt-3"><strong>Construction</strong></h4>
+
+                <p class="qaf-text-dark pb-5">House &amp; Land</p>
+
+            </div>
+
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <h4 class="qaf-text-light pt-3"><strong>Overseas &amp; Expat</strong></h4>
+
+                <p class="qaf-text-dark pb-3">Australians earning foreign income, Non-resident purchasing property in Australia</p>
+
+            </div>
+
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <h4 class="qaf-text-light pt-3"><strong>Car Loan</strong></h4>
+
+                <p class="qaf-text-dark pb-3">Dealership, Second hand</p>
+
+            </div>
+
+
+            <div class="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+
+                <h4 class="qaf-text-light pt-3"><strong>Personal Loan</strong></h4>
+
+                <p class="qaf-text-dark pb-3">Advice to weather the storm</p>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+@await Html.PartialAsync("_MeetOurTeam", Model.Employees)
+

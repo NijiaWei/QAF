@@ -1,0 +1,41 @@
+﻿@model qaf_mvc.Models.Employee
+@{
+    ViewData["Title"] = "Member";
+}
+
+
+<div class="container">
+
+    <div class="row align-items-center justify-content-center">
+
+        <div class="col">
+
+            <h1 class="mt-5 member_name" style="text-align: center;">@Model.Name</h1>
+            <hr class="page-title">
+            <h3 class="qaf-text-light pt-3 pb-5" style="text-align: center;">@Model.Title</h3>
+
+        </div>
+
+    </div>
+    <div class="mb-4 py-5">
+
+        <div class="row">
+
+            <div class="col col-4 col-sm-4 col-md-5 col-lg-5 col-xl-5">
+
+                <img src="/@Model.PhotoUrl" alt="" class="img-fluid img-thumbnail">
+
+            </div>
+
+
+            <div class="col col-8 col-sm-8 col-md-7 col-lg-7 col-xl-7">
+                @foreach (var detail in Model.Details)
+                {
+                    <p class="qaf-text-dark">@detail</p>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+ 
